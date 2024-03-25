@@ -30,19 +30,22 @@
   <!-- Header -->
   <h1>Salary Program, with a JS file</h1>
 
-  <!-- Input Fields | Default values of 5 and 3 -->
-  <label for="base">Numbers of Hours Worked:</label>
-  <input id="baseInput" type="number" name="base" value="5" min="0" />
+  <h3>Please enter your employment information:</h3>
+  <!-- Input Fields -->
+  <label for="hoursWorked">Numbers of Hours Worked:</label>
+  <input id="hoursWorkedInput" type="number" name="hoursWorked" placeholder="Hours" min="0" />
   <br>
-  <label for="height">Hourly Rate: $</label>
-  <input id="heightInput" type="number" name="height" value="3" min="0" />
+  <label for="hourlyRate">Hourly Rate: $</label>
+  <input id="hourlyRateInput" type="number" name="hourlyRate" placeholder="Rate" min="0" />
   <br>
 
-  <!-- Calculate Button --> <!-- pretty useless -->
+  <!-- Calculate Button -->
   <button id="CalculateBtn">Calculate Pay</button>
 
   <!-- Result -->
-  <p>The Area is <b id="AreaResult"> ? </b> </p>
+  <p id="resultHolder">
+    
+  </p>
 
 </body>
 

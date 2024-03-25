@@ -1,4 +1,39 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+body {
+  background-color: #46410c;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+}
+
+h1 {
+  margin: 50px 0;
+  display: inline;
+  background-color: #383200;
+}
+
+input, button {
+  background-color: #7f771a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+::placeholder {
+  color: #cdca9d;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #706c00;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+#AreaResult {
+  font-size: 36px;
+}
