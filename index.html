@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+
+<head>
+  <!-- Meta data section -->
+  <meta charset="utf-8">
+  <meta name="description" content="Calculator for Salary in Canada, Using Javascript">
+  <meta name="keywords" content="immaculata, icd2o">
+  <meta name="author" content="Atri Sarker">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+  <link rel="manifest" href="./fav_index/site.webmanifest">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Title -->
+  <title>Salary Program in JS</title>
+</head>
+
+<body>
+
+  <!-- Script -->
+  <script defer src="./js/script.js"></script>
+
+  <!-- Header -->
+  <h1>Salary Program, with a JS file</h1>
+
+  <!-- Input Fields | Default values of 5 and 3 -->
+  <label for="base">Numbers of Hours Worked:</label>
+  <input id="baseInput" type="number" name="base" value="5" min="0" />
+  <br>
+  <label for="height">Hourly Rate: $</label>
+  <input id="heightInput" type="number" name="height" value="3" min="0" />
+  <br>
+
+  <!-- Calculate Button --> <!-- pretty useless -->
+  <button id="CalculateBtn">Calculate Pay</button>
+
+  <!-- Result -->
+  <p>The Area is <b id="AreaResult"> ? </b> </p>
+
+</body>
+
 </html>
