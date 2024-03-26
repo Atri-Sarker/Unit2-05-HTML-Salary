@@ -85,7 +85,7 @@ function Calculate() {
   let finalIncome = totalIncome - totalFederalTax - totalOntarioTax;
 
   // Make Result String
-  // toLocalString() formats numbers using commas
+  // toLocaleString() formats numbers using commas
   let result = `
   <p>Total Taxable Income : $${totalIncome.toLocaleString()}</p>
   <p>Federal Tax : $${totalFederalTax.toLocaleString()}</p>
