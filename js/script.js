@@ -35,7 +35,7 @@ function calculateFederalTax(income) {
   // Sum of All Portions
   let portionSum = portion1 + portion2 + portion3 + portion4 + portion5;
   // Divide by 100, due to percentage(%)
-  let totalFederalTax = portionSum/100;
+  let totalFederalTax = portionSum / 100;
   return totalFederalTax.toFixed(2);
 }
 
@@ -61,7 +61,7 @@ function calculateOntarioTax(income) {
   // Sum of All Portions
   let portionSum = portion1 + portion2 + portion3 + portion4 + portion5;
   // Divide by 100, due to percentage(%)
-  let totalOntarioTax = portionSum/100;
+  let totalOntarioTax = portionSum / 100;
   return totalOntarioTax.toFixed(2);
 }
 
